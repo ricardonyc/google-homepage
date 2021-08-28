@@ -1,0 +1,49 @@
+:root {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    --radius: 10px;
+    box-sizing: border-box;
+}
+/* UL element */
+.main-nav {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 1px;
+}
+
+/* Pushes elements to the right of the navbar */
+.push {
+    margin-left: auto;
+    padding: 0 8px;
+}
+
+/* Pushes content on the left of the apps icon away */
+.icon {
+    padding-left: 17px;
+}
+
+/* Icons */
+i {
+    padding: 7px 8px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+} 
+
+.right-nav {
+    padding: 0 7px;
+}
+
+.left-nav {
+    padding: 0 0 0 15px;
+}
