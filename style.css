@@ -3,9 +3,13 @@
     padding: 0;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    --radius: 10px;
     box-sizing: border-box;
 }
+
+body {
+    background-color: purle;
+}
+
 /* UL element */
 .main-nav {
     display: flex;
@@ -46,4 +50,48 @@ a {
 
 .left-nav {
     padding: 0 0 0 15px;
+}
+
+section {
+    border: 1px solid red;
+    height: 85vh;
+    width: 100%;
+    margin: auto;
+}
+
+.search-box {
+    width: 550px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    
+}
+
+.search-box > i {
+    font-size: 21px;
+    color: #777;
+}
+
+.search-box > input {
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+button {
+    border: none;
+    background-color: #f8f8f8;
+    padding: 10px 15px;
+    margin: 27px 3px;
+}
+
+.center {
+    
 }
